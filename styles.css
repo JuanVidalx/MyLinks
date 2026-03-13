@@ -80,3 +80,39 @@ img {
   }
 
 }
+
+/* MEDIA QUERY PARA PANTALLAS GRANDES */
+@media (main-width: 1200px) {
+
+  .card {
+    max-width: 600px;
+  }
+  .name {
+    font-size: 2rem;
+  }
+}
+
+/*ORIENTACION LANDSCAPE */
+
+@media (orientation: landscape) {
+  .card {
+    padding: 2rem;
+  }
+}
+
+
+/*MODO OSCURO */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #0f0f13;
+    color: #ffffff;
+  }
+
+  .link {
+    border-color: #2a2a38;
+  }
+
+  .bio {
+    color: #a0a0b0;
+  }
+}
